@@ -1,6 +1,6 @@
 <?php 
 ob_start();
-// ok
+
 ?>
 
 <!DOCTYPE html>
@@ -78,6 +78,7 @@ ob_start();
 </html>
 
 <?php
+// Nouveu traitement
 $html = ob_get_contents();
 ob_end_clean();
 
